@@ -1,0 +1,66 @@
+:root {
+    --brand-color: #404BBF;
+    --normal-color: #2E2F42;
+    --nav-contact-color: #434455;
+    --text-font-family: 'Roboto', sans-serif;
+    --heder-font-family: 'Raleway', sans-serif;
+    --nav-color: #E7E9FC;
+    --withe-color: #FFFFFF;
+}   
+
+/*Global style*/
+
+body{
+    font-family: :var(--text-font-family);
+}
+/*Classes*/
+
+.nav-bar-nav-links{
+    background-color: var(--nav-color);
+    color: var(--normal-color);
+}
+.navigation-bar{
+    color: var(--normal-color);
+}
+.navigation-bar:hover,
+.navigation-bar:focus{
+    color: var(--brand-color);
+}
+.navcontact{
+    background-color: var(--nav-color);
+    color: var(--nav-contact-color);
+}
+.navcontact{
+    color: var(--normal-color);
+}
+.contactinfo{
+    color: var(--nav-contact-color);
+}
+.contactinfo:hover,
+.contactinfo:focus{
+    color: var(--brand-color);
+}
+.hero-content{
+    color: var(--withe-color);
+    background-color: var(--normal-color);
+} 
+.order{
+    color: var(--withe-color);
+    background-color: #4D5AE5;
+}
+.order:hover{
+    background-color: var(--brand-color);
+}
+.mainpage{
+    background-color:var(--withe-color);
+
+}
+.team-background{
+    background-color: #F4F4FD;
+}
+.footer-backgound{
+    background-color: var(--normal-color);
+}
+.footer-text{
+    color: #F4F4FD;
+}
