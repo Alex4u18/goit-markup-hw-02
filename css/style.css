@@ -12,20 +12,49 @@
 
 body{
     font-family: :var(--text-font-family);
+    background-color: var(with-color);
+    color: var(nav-contac-color: #434455);
 }
 /*Classes*/
-
-.nav-bar-nav-links{
+.webstudio-logo {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 116.667%;
+    font-weight: bold;
+    line-height: 1.17
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5; /* Culoarea pentru "Web" */
     background-color: var(--nav-color);
     color: var(--normal-color);
 }
-.navigation-bar{
+
+.webstudio-logo a {
+    text-decoration: none; /* Eliminarea sublinierii standard din link */
+    color: inherit; /* Păstrarea culorii de text a clasei "webstudio-logo" */
+}
+
+.studio {
+    color: var(--normal-color); /* Utilizarea variabilei pentru culoarea textului */
+}
+
+.studio {
+    color: #2E2F42; /* Culoarea pentru "studio" */
+}
+list {
+    /* Anulează stilul implicit al marcatorilor/listei */
+    list-style: none;
+    font-weight: 500; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--normal-color);
+    text-decoration: none;
 }
-.navigation-bar:hover,
-.navigation-bar:focus{
+.list:hover,
+.list:focus{
     color: var(--brand-color);
+    color: nav-contact-color: #434455;
 }
+
 .navcontact{
     background-color: var(--nav-color);
     color: var(--nav-contact-color);
@@ -33,37 +62,48 @@ body{
 .navcontact{
     color: var(--normal-color);
 }
+
 .contactinfo{
     color: var(--nav-contact-color);
 }
+
 .contactinfo:hover,
 .contactinfo:focus{
     color: var(--brand-color);
 }
+
 .hero-content{
     color: var(--withe-color);
     background-color: var(--normal-color);
 } 
+
 .order{
     color: var(--withe-color);
     background-color: #4D5AE5;
 }
+
 .order:hover{
     background-color: var(--brand-color);
 }
+
 .mainpage{
     background-color:var(--withe-color);
 
 }
+
 .team-background{
     background-color: #F4F4FD;
 }
+
 .footer-backgound{
     background-color: var(--normal-color);
 }
+
 .footer-text{
     color: #F4F4FD;
 }
+
 .main-portofolio{
     background-color: var(--withe-color);
 }
+
