@@ -6,6 +6,8 @@
     --heder-font-family: 'Raleway', sans-serif;
     --nav-color: #E7E9FC;
     --withe-color: #FFFFFF;
+    --logo-text-color: #4d5ae5;
+
 }   
 
 /*Global style*/
@@ -18,12 +20,12 @@ body{
 /*Classes*/
 .webstudio-logo {
     font-family: 'Raleway', sans-serif; 
-    font-size: 116.667%;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 800;
     line-height: 1.17
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5; /* Culoarea pentru "Web" */
+    color: var(logo-text-color); /* Culoarea pentru "Web" */
     background-color: var(--nav-color);
     color: var(--normal-color);
 }
@@ -33,14 +35,14 @@ body{
     color: inherit; /* Păstrarea culorii de text a clasei "webstudio-logo" */
 }
 
-.studio {
+.stu {
     color: var(--normal-color); /* Utilizarea variabilei pentru culoarea textului */
 }
 
-.studio {
+.stu {
     color: #2E2F42; /* Culoarea pentru "studio" */
 }
-list {
+.link {
     /* Anulează stilul implicit al marcatorilor/listei */
     list-style: none;
     font-weight: 500; 
@@ -49,8 +51,8 @@ list {
     color: var(--normal-color);
     text-decoration: none;
 }
-.list:hover,
-.list:focus{
+.list1:hover,
+.list1:focus{
     color: var(--brand-color);
     color: nav-contact-color: #434455;
 }
