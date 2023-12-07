@@ -2,6 +2,7 @@
     --logo-color: #4d5ae5;
     --span-color: #2e2f42;
     --link-color: #2e2f42;
+    --text-color: #434455;
 }
 
 /* Stiluri pentru clasa logo-ului */
@@ -64,3 +65,33 @@
     font-style: normal;
 }
 
+/* Inside the body style */
+.body {
+    font-family: "Roboto", sans-serif;
+  }
+
+.body {
+    color: var(--text-color);
+  }
+
+.logo:hover {
+    color: #404bbf;
+  }
+
+  .logo span {
+    color: var(--span-color); /* Define a CSS variable for span color */
+  }
+  list li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-color); /* Define a CSS variable for link color */
+    text-decoration: none;
+  }
+  
+  .list li a:hover,
+  .list li a:focus {
+    color: #404bbf;
+  }
+  
