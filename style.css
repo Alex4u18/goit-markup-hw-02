@@ -3,12 +3,24 @@
   --global-font-family:"Roboto", sans-serif;
   --logo-font-family:"Raleway", sans-serif;
   --link-logo:color: #434455;
+  --link-logo-footer:#F4F4FD
 }
 
 body .website {
   font-family: var(--global-font-family);
 }
 
+.logo-footer::before{
+  color: blue;
+  font-family: var(--logo-font-family);
+  font-weight: 800;
+  size: 18px;
+  text-decoration: none;
+}
+.footer .logo{
+  color:#F4F4FD;
+  text-decoration: none;
+}
 .logo::before{
   content: "WEB";
   color: blue;
@@ -17,12 +29,19 @@ body .website {
   size: 18px;
   text-decoration: none;
 }
+.logo{
+  color: #2E2F42;
+  text-decoration: none;
+  font-family: var(--logo-font-family);
+  font-weight: 800;
+  size: 18px;
+}
 
 .link-logo a {
   color: var(--link-logo);
   text-decoration: none;
   size: 16px;
-  line-height:24px;
+  line-height:1.5;
   
 }
 .pages a {
@@ -30,7 +49,7 @@ body .website {
   text-decoration: none;
   font-weight: 500;
   size: 16px;
-  line-height:24px;
+  line-height:1.5;
   }
 
 ul {
@@ -50,7 +69,7 @@ ul {
   size: 16px;
   border-radius: 4px;
   border: none;
-  line-height:24px;
+  line-height:1.5;
 }
 .hero-heder{
   font-family: var(--logo-font-family);
@@ -65,12 +84,12 @@ ul {
   font-weight: 500;
   size: 20px;
   color: var(--link-color);
-  line-height:24px;
+  line-height:1.5;
 }
 .about li p{
   size: 16px;
   color: var(--link-color);
-  line-height:24px;
+  line-height:1.5;
 }
 .sub-heder{
   font-weight: 700;
@@ -88,17 +107,17 @@ ul {
   font-weight: 500;
   size: 20px;
   color: var(--link-color);
-  line-height:24px;
+  line-height:1.5;
 }
 .our-team p{
   size: 16px;
   color: var(--link-logo);
-  line-height:24px;
+  line-height:1.5;
 }
 .footer{
 background-color: #2E2F42;
 color:#F4F4FD ;
-line-height:16px;
+line-height:1.5;
 
 }
 .logo-studio{
@@ -112,12 +131,11 @@ line-height:16px;
   background-color: #E7E9FC;
   width:69px;
   height:48px;
-  radius:4px;
   padding:12px, 24px, 12px, 24px;
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  line-height:24px;
+  line-height:1.5;
 }
 .buttons .all:hover {
   background-color:#404BBF;
@@ -129,13 +147,12 @@ line-height:16px;
     background-color: #E7E9FC;
     width:116px;
     height:48px;
-    radius:4px;
     padding:12px, 24px, 12px, 24px;
     cursor: pointer;
     border: 1px;
     border-radius: 4px;
     font-weight: 500;
-    line-height:24px;
+    line-height:1.5;
   }
   .buttons .web:hover{
     background-color:#404BBF;
@@ -146,13 +163,12 @@ line-height:16px;
     background-color: #E7E9FC;
     width:78px;
     height:48px;
-    radius:4px;
     padding:12px, 24px, 12px, 24px;
     cursor: pointer;
     border: 1px;
     border-radius: 4px;
     font-weight: 500;
-    line-height:24px;
+    line-height:1.5;
   }
   .buttons .app:hover{
     background-color:#404BBF;
@@ -163,13 +179,12 @@ line-height:16px;
     background-color: #E7E9FC;
     width:101px;
     height:48px;
-    radius:4px;
     padding:12px, 24px, 12px, 24px;
     cursor: pointer;
     border: 1px;
     border-radius: 4px;
     font-weight: 500;
-    line-height:24px;
+    line-height:1.5;
   }
   .buttons .design:hover{
     background-color:#404BBF;
@@ -180,13 +195,12 @@ line-height:16px;
     background-color: #E7E9FC;
     width:101px;
     height:48px;
-    radius:4px;
     padding:12px, 24px, 12px, 24px;
     cursor: pointer;
     border: 1px;
     border-radius: 4px;
     font-weight: 500;
-    line-height:24px;
+    line-height:1.5;
   }
   .buttons .marketing:hover{
     background-color:#404BBF;
