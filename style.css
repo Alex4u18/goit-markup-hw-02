@@ -1,0 +1,48 @@
+.root{
+  --link-color:color: #2E2F42;
+  --global-font-family:"Roboto", sans-serif;
+  --logo-font-family:"Raleway", sans-serif;
+  --link-logo:color: #434455;
+}
+
+* {
+  font-family: var(--global-font-family);
+}
+
+.logo::before{
+  content: "WEB";
+  color: blue;
+  font-family: var(--logo-font-family);
+  font-weight: 800;
+  size: 18px;
+  text-decoration: none;
+}
+.link-logo a {
+  color: var(--link-logo);
+  text-decoration: none;
+  font-weight: 400;
+  size: 16px;
+  
+}
+.pages a{
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 500;
+  size: 16px;
+  }
+
+ul {
+    list-style-type: none;
+  }
+.button-order:hover{
+  background-color:#4D5AE5;
+  color: #FFFFFF;
+}
+.hero-heder{
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: 
+  #2E2F42;
+}
+
