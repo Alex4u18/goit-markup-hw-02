@@ -5,7 +5,7 @@
   --link-logo:color: #434455;
 }
 
-body {
+body .website {
   font-family: var(--global-font-family);
 }
 
@@ -22,6 +22,7 @@ body {
   color: var(--link-logo);
   text-decoration: none;
   size: 16px;
+  line-height:24px;
   
 }
 .pages a {
@@ -29,6 +30,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   size: 16px;
+  line-height:24px;
   }
 
 ul {
@@ -47,8 +49,8 @@ ul {
   font-weight: 500;
   size: 16px;
   border-radius: 4px;
-  padding: 0;
   border: none;
+  line-height:24px;
 }
 .hero-heder{
   font-family: var(--logo-font-family);
@@ -57,51 +59,136 @@ ul {
   background-color: 
   #2E2F42;
   text-align: center;
+  line-height:60x;
 }
 .about li h3{
   font-weight: 500;
   size: 20px;
   color: var(--link-color);
+  line-height:24px;
 }
 .about li p{
   size: 16px;
-  color: var();
+  color: var(--link-color);
+  line-height:24px;
 }
 .sub-heder{
   font-weight: 700;
   size: 36px;
   color: var(--link-color);
+  line-height:40px;
 }
 .team{
   font-weight: 700;
   size: 36px;
   color: var(--link-color);
+  line-height:40px;
 }
 .our-team h3{
   font-weight: 500;
   size: 20px;
   color: var(--link-color);
+  line-height:24px;
 }
 .our-team p{
   size: 16px;
   color: var(--link-logo);
+  line-height:24px;
 }
-.footer{background-color: 
-  #2E2F42;
+.footer{
+background-color: #2E2F42;
 color:#F4F4FD ;
+line-height:16px;
+
 }
 .logo-studio{
   color: #FFFFFF;
+  line-height:21px;
+  
 }
 .buttons .all {
+  font-weight: 500;
   color: #4D5AE5;
   background-color: #E7E9FC;
   width:69px;
   height:48px;
-  Radius:4px;
-  Padding:12px, 24px, 12px, 24px;
+  radius:4px;
+  padding:12px, 24px, 12px, 24px;
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  line-height:24px;
 }
-.button .all:hover{
+.buttons .all:hover {
   background-color:#404BBF;
+  color: #FFFFFF;
+  }
+
+  .buttons .web{
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    width:116px;
+    height:48px;
+    radius:4px;
+    padding:12px, 24px, 12px, 24px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height:24px;
+  }
+  .buttons .web:hover{
+    background-color:#404BBF;
+    color: #FFFFFF;
+  }
+  .buttons .app{
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    width:78px;
+    height:48px;
+    radius:4px;
+    padding:12px, 24px, 12px, 24px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height:24px;
+  }
+  .buttons .app:hover{
+    background-color:#404BBF;
+    color: #FFFFFF;
+  }
+  .buttons .design{
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    width:101px;
+    height:48px;
+    radius:4px;
+    padding:12px, 24px, 12px, 24px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height:24px;
+  }
+  .buttons .design:hover{
+    background-color:#404BBF;
+    color: #FFFFFF;
+  }
+  .buttons .marketing{
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    width:101px;
+    height:48px;
+    radius:4px;
+    padding:12px, 24px, 12px, 24px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height:24px;
+  }
+  .buttons .marketing:hover{
+    background-color:#404BBF;
+    color: #FFFFFF;
   }
