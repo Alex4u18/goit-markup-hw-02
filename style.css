@@ -3,7 +3,7 @@
   --global-font-family:"Roboto", sans-serif;
   --logo-font-family:"Raleway", sans-serif;
   --link-logo:color: #434455;
-  --link-logo-footer:#F4F4FD
+  --global-withe-text:color: #F4F4FD;
 }
 
 body .website {
@@ -116,7 +116,7 @@ ul {
 }
 .footer{
 background-color: #2E2F42;
-color:#F4F4FD ;
+color: #F4F4FD;
 line-height:1.5;
 
 }
