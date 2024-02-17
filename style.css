@@ -5,7 +5,7 @@
   --link-logo:color: #434455;
 }
 
-* {
+body {
   font-family: var(--global-font-family);
 }
 
@@ -17,14 +17,14 @@
   size: 18px;
   text-decoration: none;
 }
+
 .link-logo a {
   color: var(--link-logo);
   text-decoration: none;
-  font-weight: 400;
   size: 16px;
   
 }
-.pages a{
+.pages a {
   color: var(--link-color);
   text-decoration: none;
   font-weight: 500;
@@ -37,6 +37,18 @@ ul {
 .button-order:hover{
   background-color:#4D5AE5;
   color: #FFFFFF;
+  cursor: pointer;
+  
+}
+.button-order{
+  padding: 16px,32px,16px,32px;
+  width: 169px;
+  height:56px;
+  font-weight: 500;
+  size: 16px;
+  border-radius: 4px;
+  padding: 0;
+  border: none;
 }
 .hero-heder{
   font-family: var(--logo-font-family);
@@ -44,5 +56,52 @@ ul {
   color: #FFFFFF;
   background-color: 
   #2E2F42;
+  text-align: center;
 }
-
+.about li h3{
+  font-weight: 500;
+  size: 20px;
+  color: var(--link-color);
+}
+.about li p{
+  size: 16px;
+  color: var();
+}
+.sub-heder{
+  font-weight: 700;
+  size: 36px;
+  color: var(--link-color);
+}
+.team{
+  font-weight: 700;
+  size: 36px;
+  color: var(--link-color);
+}
+.our-team h3{
+  font-weight: 500;
+  size: 20px;
+  color: var(--link-color);
+}
+.our-team p{
+  size: 16px;
+  color: var(--link-logo);
+}
+.footer{background-color: 
+  #2E2F42;
+color:#F4F4FD ;
+}
+.logo-studio{
+  color: #FFFFFF;
+}
+.buttons .all {
+  color: #4D5AE5;
+  background-color: #E7E9FC;
+  width:69px;
+  height:48px;
+  Radius:4px;
+  Padding:12px, 24px, 12px, 24px;
+  cursor: pointer;
+}
+.button .all:hover{
+  background-color:#404BBF;
+  }
